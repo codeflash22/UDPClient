@@ -12,7 +12,7 @@ public class UDPClient {
     public static void main(String[] args) {
         DatagramSocket aSocket = null;
         if(args.length < 3){
-            System.out.println("Usage: java UDPClient <message> <host name> <port number>");
+            System.out.println("Usage: java UDPClient <message> <Host name> <Port number>");
             System.exit(1);
         }
         try{
